@@ -1,0 +1,48 @@
+
+
+#social-icon a {
+	color: #333333;	
+}
+
+#phone-number {
+	margin-top: 15px;
+}
+
+#left-bracket {
+	font-family: 'Noto Serif', serif;
+	font-weight: 500;
+	font-size: 220px;
+	position: absolute;
+	top: -50px;
+	left: 300px;
+}
+
+#right-bracket {
+	font-family: 'Noto Serif', serif;
+	font-weight: 500;
+	font-size: 220px;
+	position: absolute;
+	top: -55px;
+	left: 700px;
+}
+
+.header-text {
+	position: relative;
+	display: block;
+	top: -10px;
+	font-family: 'Noto Serif', serif;
+	font-weight: 700;
+	margin-bottom: 150px;
+}
+
+.inner-text {
+	padding-top:40px;
+}
+
+.text-container {
+	width: 700px;
+	display:block;
+	padding-left: 400px;
+	text-align: center;
+    text-justify: inter-word;
+}
