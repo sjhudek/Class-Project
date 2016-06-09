@@ -19,7 +19,7 @@ var todoSchema = function(todo) {
     completed: false,
     id: 0
   });
-}
+};
 
 var savedData = lscache.get('todos');
 var todos;

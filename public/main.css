@@ -22,6 +22,16 @@
   font-size: 25px;
 }
 
+.col-md-4 > h1 {
+  text-align: center;
+  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+}
+
 h1 {
   color: red;
 }
@@ -81,6 +91,10 @@ h1 {
 
 .arc path {
   stroke: #fff;
+}
+
+ul.nav > li {
+  display: inline-block;
 }
 
 #social-icon a {
