@@ -74,9 +74,14 @@
 	
 	var _componentsHeader2 = _interopRequireDefault(_componentsHeader);
 	
+	var _componentsFooter = __webpack_require__(61);
+	
+	var _componentsFooter2 = _interopRequireDefault(_componentsFooter);
+	
 	(0, _jquery2['default'])(function () {
 	
 	  _componentsHeader2['default'].init();
+	  _componentsFooter2['default'].init();
 	
 	  // what page are we on?
 	  var url = window.location.pathname;
@@ -86,7 +91,7 @@
 	    case '/pages/todo.html':
 	      _pagesTodo2['default'].init();
 	      break;
-	    case '/':case "":
+	    case '/':case '':
 	      _pagesHome2['default'].init();
 	      break;
 	    case '/pages/funnySquares.html':
@@ -9951,7 +9956,7 @@
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"todo-container":"todo-container","add-todo-container":"add-todo-container","col-md-10":"col-md-10","col-md-2":"col-md-2","col-md-4":"col-md-4","liNoIndent":"liNoIndent","heroImage":"heroImage","square":"square","square-container":"square-container","square1":"square1","square2":"square2","square3":"square3","square4":"square4","square5":"square5","square6":"square6","arc":"arc","nav":"nav","social-icon":"social-icon","phone-number":"phone-number","left-bracket":"left-bracket","right-bracket":"right-bracket","header-text":"header-text","inner-text":"inner-text","text-container":"text-container"};
+	module.exports = {"todo-container":"todo-container","add-todo-container":"add-todo-container","col-md-10":"col-md-10","col-md-2":"col-md-2","col-md-4":"col-md-4","liNoIndent":"liNoIndent","heroImage":"heroImage","square":"square","square-container":"square-container","square1":"square1","square2":"square2","square3":"square3","square4":"square4","square5":"square5","square6":"square6","arc":"arc","navPosition":"navPosition","nav":"nav","social-icon":"social-icon","phone-number":"phone-number","left-bracket":"left-bracket","right-bracket":"right-bracket","header-text":"header-text","inner-text":"inner-text","text-container":"text-container","full":"full","gap":"gap","footer":"footer","supportLi":"supportLi","newsletter-box":"newsletter-box","appendedInputButton":"appendedInputButton","btn":"btn","bg-gray":"bg-gray","social":"social","footer-bottom":"footer-bottom","pull-left":"pull-left","payments":"payments","stevePic":"stevePic","pic":"pic"};
 
 /***/ },
 /* 3 */,
@@ -28983,7 +28988,40 @@
 /* 60 */
 /***/ function(module, exports) {
 
-	module.exports = "<link rel=\"stylesheet\" type=\"text/css\" href=\"/main.css\">\n<!-- Latest compiled and minified CSS -->\n<link rel=\"stylesheet\" href=\"/css/bootstrap.min.css\">\n<link rel=\"stylesheet\" href=\"/css/bootstrap-theme.min.css\">\n<!-- Font Awesome -->\n<link href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css\" rel=\"stylesheet\" integrity=\"sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1\" crossorigin=\"anonymous\">\n\n\n<!-- Begin Nav -->\n  <div class=\"navbar-3 navbar-4\">\n    <div class=\"top-bar\">\n      <div class=\"container\">\n        <div class=\"col-md-4 left\" id=\"phone-number\">\n          <i class=\"fa fa-phone\"></i> <span> 303-834-7196</span>\n        </div>\n      <div class=\"col-md-8 right\">\n        <ul class=\"nav navbar-nav navbar-right\" id=\"social-icon\">\n          <li><a href=\"#\"><i class=\"fa fa-facebook\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-skype\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-google-plus\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-linkedin\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-rss\"></i></a></li>\n        </ul>\n      </div>\n      </div>\n    </div>\n    <nav class=\"navbar navbar-default\">\n      <div class=\"container container-fluid\">\n      <!-- Brand and toggle get grouped for better mobile display -->\n      <div class=\"navbar-header\">\n        <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">\n        <span class=\"sr-only\">Toggle navigation</span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        </button>\n      </div>\n\n      <!-- Collect the nav links, forms, and other content for toggling -->\n      <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n        <ul class=\"nav navbar-nav navbar-right\">\n          <li><a href=\"#\">Home</a></li>\n          <li><a href=\"/pages/services.html\">Services</a></li>\n          <li class=\"dropdown\">\n            <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Design<span class=\"caret\"></span></a>\n              <ul class=\"dropdown-menu\">\n                <li><a role=\"menuitem\" href=\"#\">Graphic Design</a></li>\n                <li><a role=\"menuitem\" href=\"#\">Advertising</a></li>\n                <li><a role=\"menuitem\" href=\"#\">Web Design</a></li>\n                <li><a role=\"menuitem\" href=\"#\">Mobile</a></li>\n              </ul>\n          </li>\n          <li class=\"dropdown\">\n            <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Development<span class=\"caret\"></span></a>\n              <ul class=\"dropdown-menu\">\n                <li><a role=\"menuitem\" href=\"/pages/funnySquares.html\">Funny Squares</a></li>\n                <li><a role=\"menuitem\" href=\"/pages/todo.html\">Todo Application</a></li>\n                <li><a href=\"/pages/d3-donutchart.html\">D3 Donut Chart</a></li>\n              </ul>\n          </li>\n          <li><a href=\"/pages/marketing.html\">Marketing</a></li>\n          <li><a href=\"#\">Blog</a></li>\n          <li><a href=\"/pages/about.html\">About Us</a></li>\n          <li><a href=\"/pages/contact.html\">Contact Us</a></li>\n        </li>\n        </ul>\n\n      </div><!-- /.navbar-collapse -->\n      </div><!-- /.container-fluid -->\n    </nav>\n  </div>";
+	module.exports = "<link rel=\"stylesheet\" type=\"text/css\" href=\"/main.css\">\n<!-- Latest compiled and minified CSS -->\n<link rel=\"stylesheet\" href=\"/css/bootstrap.min.css\">\n<link rel=\"stylesheet\" href=\"/css/bootstrap-theme.min.css\">\n<!-- Font Awesome -->\n<link href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css\" rel=\"stylesheet\" integrity=\"sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1\" crossorigin=\"anonymous\">  \n\n\n<!-- Begin Nav -->\n  <div class=\"navbar-3 navbar-4\">\n    <div class=\"top-bar\">\n      <div class=\"container\">\n        <div class=\"col-md-4 left\" id=\"phone-number\">\n          <i class=\"fa fa-phone\"></i> <span> 303-834-7196</span>\n        </div>\n      <div class=\"col-md-8 right\">\n        <ul class=\"nav navbar-nav navbar-right\" id=\"social-icon\">\n          <li><a href=\"#\"><i class=\"fa fa-facebook\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-skype\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-google-plus\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-linkedin\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-rss\"></i></a></li>\n        </ul>\n      </div>\n      </div>\n    </div>\n    <nav class=\"navbar navbar-default\">\n      <div class=\"container container-fluid\">\n      <!-- Brand and toggle get grouped for better mobile display -->\n      <div class=\"navbar-header\">\n        <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">\n        <span class=\"sr-only\">Toggle navigation</span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        </button>\n      </div>\n\n      <!-- Collect the nav links, forms, and other content for toggling -->\n      <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n        <ul class=\"nav navbar-nav navbar-right\">\n          <li><a href=\"#\">Home</a></li>\n          <li><a href=\"/pages/services.html\">Services</a></li>\n          <li class=\"dropdown\">\n            <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Design<span class=\"caret\"></span></a>\n            <ul class=\"dropdown-menu\">\n              <li><a role=\"menuitem\" href=\"#\">Graphic Design</a></li>\n              <li><a role=\"menuitem\" href=\"#\">Advertising</a></li>\n              <li><a role=\"menuitem\" href=\"#\">Web Design</a></li>\n              <li><a role=\"menuitem\" href=\"#\">Mobile</a></li>\n            </ul>\n          </li>\n          <li class=\"dropdown\">\n            <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Development<span class=\"caret\"></span></a>\n            <ul class=\"dropdown-menu\">\n              <li><a role=\"menuitem\" href=\"/pages/funnySquares.html\">Funny Squares</a></li>\n              <li><a role=\"menuitem\" href=\"/pages/todo.html\">Todo Application</a></li>\n              <li><a href=\"/pages/d3-donutchart.html\">D3 Donut Chart</a></li>\n            </ul>\n          </li>\n          <li><a href=\"/pages/marketing.html\">Marketing</a></li>\n          <li><a href=\"/pages/about.html\">About Us</a></li>\n          <li><a href=\"/pages/about-you.html\">About You</a></li>\n          <li><a href=\"#\">Blog</a></li>\n          <li><a href=\"/pages/contact.html\">Contact Us</a></li>\n        </li>\n        </ul>\n\n      </div><!-- /.navbar-collapse -->\n      </div><!-- /.container-fluid -->\n    </nav>\n  </div>";
+
+/***/ },
+/* 61 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	var _jquery = __webpack_require__(1);
+	
+	var _jquery2 = _interopRequireDefault(_jquery);
+	
+	var _templatesFooterHtml = __webpack_require__(62);
+	
+	var _templatesFooterHtml2 = _interopRequireDefault(_templatesFooterHtml);
+	
+	var app = {
+	  init: function init() {
+	    app.render();
+	  },
+	  render: function render() {
+	    (0, _jquery2['default'])('footer').append(_templatesFooterHtml2['default']);
+	  }
+	};
+	
+	module.exports = app;
+
+/***/ },
+/* 62 */
+/***/ function(module, exports) {
+
+	module.exports = "<link rel=\"stylesheet\" type=\"text/css\" href=\"/main.css\">\n<!-- Latest compiled and minified CSS -->\n<link rel=\"stylesheet\" href=\"/css/bootstrap.min.css\">\n<link rel=\"stylesheet\" href=\"/css/bootstrap-theme.min.css\">\n<!-- Font Awesome -->\n<link href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css\" rel=\"stylesheet\" integrity=\"sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1\" crossorigin=\"anonymous\">\n\n<div class=\"footer\" id=\"footer\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-lg-2  col-md-2 col-sm-4 col-xs-6\">\n        <h3> Lorem Ipsum </h3>\n          <ul>\n            <li> <a href=\"#\"> Lorem Ipsum </a> </li>\n            <li> <a href=\"#\"> Lorem Ipsum </a> </li>\n            <li> <a href=\"#\"> Lorem Ipsum </a> </li>\n            <li> <a href=\"#\"> Lorem Ipsum </a> </li>\n          </ul>\n      </div>\n      <div class=\"col-lg-2  col-md-2 col-sm-4 col-xs-6\">\n        <h3> Lorem Ipsum </h3>\n        <ul>\n          <li> <a href=\"#\"> Lorem Ipsum </a> </li>\n          <li> <a href=\"#\"> Lorem Ipsum </a> </li>\n          <li> <a href=\"#\"> Lorem Ipsum </a> </li>\n          <li> <a href=\"#\"> Lorem Ipsum </a> </li>\n      </ul>\n      </div>\n      <div class=\"col-lg-2  col-md-2 col-sm-4 col-xs-6\">\n        <h3> Lorem Ipsum </h3>\n        <ul>\n          <li> <a href=\"#\"> Lorem Ipsum </a> </li>\n          <li> <a href=\"#\"> Lorem Ipsum </a> </li>\n          <li> <a href=\"#\"> Lorem Ipsum </a> </li>\n          <li> <a href=\"#\"> Lorem Ipsum </a> </li>\n        </ul>\n      </div>\n      <div class=\"col-lg-2  col-md-2 col-sm-4 col-xs-6\">\n        <h3> Lorem Ipsum </h3>\n        <ul>\n          <li> <a href=\"#\"> Lorem Ipsum </a> </li>\n          <li> <a href=\"#\"> Lorem Ipsum </a> </li>\n          <li> <a href=\"#\"> Lorem Ipsum </a> </li>\n          <li> <a href=\"#\"> Lorem Ipsum </a> </li>\n        </ul>\n      </div>\n      <div class=\"col-lg-3  col-md-3 col-sm-6 col-xs-12 \">\n        <h3> Lorem Ipsum </h3>\n        <ul>\n          <li>\n            <div class=\"input-append newsletter-box text-center\">\n              <input type=\"text\" class=\"full text-center\" placeholder=\"Email \">\n              <button class=\"btn  bg-gray\" type=\"button\"> Lorem ipsum <i class=\"fa fa-long-arrow-right\"> </i> </button>\n            </div>\n          </li>\n        </ul>\n        <ul class=\"social\">\n            <li> <a href=\"#\"> <i class=\" fa fa-facebook\">   </i> </a> </li>\n            <li> <a href=\"#\"> <i class=\"fa fa-twitter\">   </i> </a> </li>\n            <li> <a href=\"#\"> <i class=\"fa fa-google-plus\">   </i> </a> </li>\n            <li> <a href=\"#\"> <i class=\"fa fa-pinterest\">   </i> </a> </li>\n            <li> <a href=\"#\"> <i class=\"fa fa-youtube\">   </i> </a> </li>\n        </ul>\n      </div>\n      </div>\n      <!--/.row--> \n    </div>\n    <!--/.container--> \n</div>\n<!--/.footer-->\n\n<div class=\"footer-bottom\">\n  <div class=\"container\">\n    <p class=\"pull-left\"> Copyright © Footer E-commerce Plugin 2014. All right reserved. </p>\n      <div class=\"pull-right\">\n        <ul class=\"nav nav-pills payments\">\n          <li><i class=\"fa fa-cc-visa\"></i></li>\n            <li><i class=\"fa fa-cc-mastercard\"></i></li>\n            <li><i class=\"fa fa-cc-amex\"></i></li>\n            <li><i class=\"fa fa-cc-paypal\"></i></li>\n        </ul> \n      </div>\n</div>\n</div>";
 
 /***/ }
 /******/ ]);
