@@ -118,7 +118,6 @@ ul.nav > li {
   margin-top: 15px;
 }
 
-/*
 #left-bracket {
   font-family: 'Noto Serif', serif;
   font-weight: 500;
@@ -168,12 +167,9 @@ ul.nav > li {
   clear: both;
   display: block;
 }
-*/
-.container>.col-md-4 {
-  margin-top: -30px;
-}
+
 .footer {
-  background: #FFFFFF;
+  background: #EDEFF1;
   height: auto;
   padding-bottom: 30px;
   position: relative;
@@ -253,11 +249,12 @@ ul.nav > li {
   overflow: hidden;
 }
 
+/*
 .bg-gray {
   background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
   box-shadow: 0 1px 0 #B4B3B3;
 }
-
+*/
 .social li {
   background: none repeat scroll 0 0 #B5B5B5;
   border: 2px solid #B5B5B5;
@@ -304,7 +301,7 @@ ul.nav > li {
 }
 
 .footer-bottom {
-  background: #FFFFFF;
+  background: #E3E3E3;
   border-top: 1px solid #DDDDDD;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -317,43 +314,5 @@ ul.nav > li {
 .payments {
   font-size: 1.5em;
 }
-
-.stevePic {
-  width: 200px;
-  margin: 0 10px 10px 10px;
-}
-
-.col-md-10 p {
-  width: 90%;
-}
-
-.pic {
-  width: 200px;
-  margin: 0 10px 10px 10px;
-}
-
-.col-md-10 p {
-  width: 90%;
-}
-
-hr.style18 { 
-  height: 30px; 
-  width: 90%;
-  border-style: solid; 
-  border-color: #8c8b8b; 
-  border-width: 1px 0 0 0; 
-  border-radius: 20px; 
-} 
-hr.style18:before { 
-  display: block; 
-  content: ""; 
-  height: 30px; 
-  margin-top: -31px; 
-  border-style: solid; 
-  border-color: #8c8b8b; 
-  border-width: 0 0 1px 0; 
-  border-radius: 20px; 
-}
-
 
 /*# sourceMappingURL=main.css.map*/
