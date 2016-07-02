@@ -118,22 +118,11 @@ ul.nav > li {
   margin-top: 15px;
 }
 
-#left-bracket {
-  font-family: 'Noto Serif', serif;
-  font-weight: 500;
-  font-size: 220px;
-  position: absolute;
-  top: -50px;
-  left: 300px;
-}
-
-#right-bracket {
-  font-family: 'Noto Serif', serif;
-  font-weight: 500;
-  font-size: 220px;
-  position: absolute;
-  top: -55px;
-  left: 700px;
+.tagline {
+  text-align: center;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 60px;
+  margin-bottom: 50px;
 }
 
 .header-text {
@@ -189,7 +178,7 @@ hr.style18:before {
 }
 
 .footer {
-  background: #EDEFF1;
+  background: #FFFFFF;
   height: auto;
   padding-bottom: 30px;
   position: relative;
@@ -321,7 +310,7 @@ hr.style18:before {
 }
 
 .footer-bottom {
-  background: #E3E3E3;
+  background: #FFFFFF;
   border-top: 1px solid #DDDDDD;
   padding-top: 10px;
   padding-bottom: 10px;
