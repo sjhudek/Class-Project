@@ -118,43 +118,10 @@ ul.nav > li {
   margin-top: 15px;
 }
 
-#left-bracket {
-  font-family: 'Noto Serif', serif;
-  font-weight: 500;
-  font-size: 220px;
-  position: absolute;
-  top: -50px;
-  left: 300px;
-}
-
-#right-bracket {
-  font-family: 'Noto Serif', serif;
-  font-weight: 500;
-  font-size: 220px;
-  position: absolute;
-  top: -55px;
-  left: 700px;
-}
-
-.header-text {
-  position: relative;
-  display: block;
-  top: -10px;
-  font-family: 'Noto Serif', serif;
-  font-weight: 700;
-  margin-bottom: 150px;
-}
-
-.inner-text {
-  padding-top: 40px;
-}
-
-.text-container {
-  width: 700px;
-  display: block;
-  padding-left: 400px;
+.tagline {
   text-align: center;
-  text-justify: inter-word;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 40px;
 }
 
 hr.style18 {
@@ -333,6 +300,14 @@ hr.style18:before {
 
 .payments {
   font-size: 1.5em;
+}
+
+.stevePic {
+  width: 200px;
+}
+
+.pic {
+  width: 200px;
 }
 
 /*# sourceMappingURL=main.css.map*/
