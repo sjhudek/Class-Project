@@ -129,19 +129,51 @@ ul.nav > li {
   display: block;
 }
 
-.tagline {
+.tagline{
   font-family: 'Shadows Into Light Two', cursive;
   font-size: 50px;
   text-align: center;
   margin-bottom: 40px;
 }
 
+.callToAction {
+  text-align: center;
+  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+  font-size: 50px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+}
+
+hr.style18 { 
+  height: 30px; 
+  width: 85%;
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr.style18:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+
+.callToAction {
+
+}
+
 .footer {
-  bottom: 0;
   background: #FFFFFF;
   height: auto;
   padding-bottom: 30px;
-  position: fixed;
+  position: relative;
   width: 100%;
   border-bottom: 1px solid #CCCCCC;
   border-top: 1px solid #DDDDDD;
@@ -267,10 +299,6 @@ ul.nav > li {
   font-size: 16px;
   margin: 0 0 0 5px;
   color: #EDEFF1 !important;
-}
-
-.stevePic, .pic {
-  width: 200px;
 }
 
 /*# sourceMappingURL=main.css.map*/
