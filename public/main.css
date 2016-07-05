@@ -118,32 +118,6 @@ ul.nav > li {
   margin-top: 15px;
 }
 
-.tagline {
-  text-align: center;
-  font-family: 'Shadows Into Light Two', cursive;
-  font-size: 40px;
-}
-
-hr.style18 {
-  height: 30px;
-  width: 90%;
-  border-style: solid;
-  border-color: #8c8b8b;
-  border-width: 1px 0 0 0;
-  border-radius: 20px;
-}
-
-hr.style18:before {
-  display: block;
-  content: "";
-  height: 30px;
-  margin-top: -31px;
-  border-style: solid;
-  border-color: #8c8b8b;
-  border-width: 0 0 1px 0;
-  border-radius: 20px;
-}
-
 .full {
   width: 100%;
 }
@@ -156,10 +130,11 @@ hr.style18:before {
 }
 
 .footer {
+  bottom: 0;
   background: #FFFFFF;
   height: auto;
   padding-bottom: 30px;
-  position: relative;
+  position: fixed;
   width: 100%;
   border-bottom: 1px solid #CCCCCC;
   border-top: 1px solid #DDDDDD;
@@ -287,26 +262,7 @@ hr.style18:before {
   color: #EDEFF1 !important;
 }
 
-.footer-bottom {
-  background: #FFFFFF;
-  border-top: 1px solid #DDDDDD;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.footer-bottom p.pull-left {
-  padding-top: 6px;
-}
-
-.payments {
-  font-size: 1.5em;
-}
-
-.stevePic {
-  width: 200px;
-}
-
-.pic {
+.stevePic, .pic {
   width: 200px;
 }
 
