@@ -118,11 +118,22 @@ ul.nav > li {
   margin-top: 15px;
 }
 
-.tagline {
-  text-align: center;
-  font-family: 'Shadows Into Light Two', cursive;
-  font-size: 60px;
-  margin-bottom: 50px;
+#left-bracket {
+  font-family: 'Noto Serif', serif;
+  font-weight: 500;
+  font-size: 220px;
+  position: absolute;
+  top: -50px;
+  left: 300px;
+}
+
+#right-bracket {
+  font-family: 'Noto Serif', serif;
+  font-weight: 500;
+  font-size: 220px;
+  position: absolute;
+  top: -55px;
+  left: 700px;
 }
 
 .header-text {
