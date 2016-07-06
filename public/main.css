@@ -173,7 +173,8 @@ hr.style18:before {
   background: #FFFFFF;
   height: auto;
   padding-bottom: 30px;
-  position: relative;
+  position: fixed;
+  bottom: 0;
   width: 100%;
   border-bottom: 1px solid #CCCCCC;
   border-top: 1px solid #DDDDDD;
