@@ -18,16 +18,16 @@ $(function(){
 
 // our first JS router
   switch (url) {
-    case '/pages/todo.html':
+      case '/pages/todo.html':
         todo.init();
     break;
-    case '/': case '':
+      case '/': case '':
         home.init();
     break;
-    case '/pages/funnySquares.html':
+      case '/pages/funnySquares.html':
         funnySquares.init();
     break;
-    case '/pages/d3-donutchart.html':
+      case '/pages/d3-donutchart.html':
         d3Donutchart.init();
     break;
   }
