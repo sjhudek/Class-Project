@@ -9993,9 +9993,9 @@
 	
 	var _lscache2 = _interopRequireDefault(_lscache);
 	
-	var _templatesTodoItemHtml = __webpack_require__(40);
+	var _templatesTodoThingHtml = __webpack_require__(63);
 	
-	var _templatesTodoItemHtml2 = _interopRequireDefault(_templatesTodoItemHtml);
+	var _templatesTodoThingHtml2 = _interopRequireDefault(_templatesTodoThingHtml);
 	
 	var _templatesTodoModalHtml = __webpack_require__(41);
 	
@@ -10053,7 +10053,7 @@
 	    app.bindEvents();
 	  },
 	  compileTemplates: function compileTemplates() {
-	    template = _handlebars2['default'].compile(_templatesTodoItemHtml2['default']); // grabbing the first content in the HTML template
+	    template = _handlebars2['default'].compile(_templatesTodoThingHtml2['default']); // grabbing the first content in the HTML template
 	  },
 	  unbindEvents: function unbindEvents() {
 	    // removes handlers
@@ -16857,12 +16857,7 @@
 
 
 /***/ },
-/* 40 */
-/***/ function(module, exports) {
-
-	module.exports = "<li class=\"list-group-item row {{#if completed}}disabled{{/if}}\"> <!-- disabled row -->\n  <div class=\"col-md-1\"> \n    <input type=\"checkbox\" {{#if completed}}checked{{/if}}>\n  </div>\n  <div class=\"col-md-10 title\">{{title}}</div>\n  <div class=\"col-md-10\" data-id='{{id}}'>{{title}}</div>\n  <div class=\"col-md-1\">\n    <button type=\"button\" class=\"close\" aria-label=\"Close\">\n      <span aria-hidden=\"true\">&times;</span>\n    </button>\n  </div>\n</li>";
-
-/***/ },
+/* 40 */,
 /* 41 */
 /***/ function(module, exports) {
 
@@ -29031,6 +29026,12 @@
 /***/ function(module, exports) {
 
 	module.exports = "<link rel=\"stylesheet\" type=\"text/css\" href=\"/main.css\">\n<!-- Latest compiled and minified CSS -->\n<link rel=\"stylesheet\" href=\"/css/bootstrap.min.css\">\n<link rel=\"stylesheet\" href=\"/css/bootstrap-theme.min.css\">\n<!-- Font Awesome -->\n<link href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css\" rel=\"stylesheet\" integrity=\"sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1\" crossorigin=\"anonymous\">\n\n\n<div class=\"footer\">\n  <div class=\"container\">\n    <p class=\"pull-left\"> Copyright © 2016 Stephen J. Hudek All rights reserved. </p>\n      <div class=\"col-md-8 right\">\n        <ul class=\"nav navbar-nav navbar-right\" id=\"social-icon\">\n          <li><a href=\"#\"><i class=\"fa fa-facebook\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-skype\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-google-plus\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-linkedin\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-rss\"></i></a></li>\n        </ul>\n      </div>\n</div>\n</div>";
+
+/***/ },
+/* 63 */
+/***/ function(module, exports) {
+
+	module.exports = "<li class=\"list-group-item row {{#if completed}}disabled{{/if}}\"> <!-- disabled row -->\n  <div class=\"col-md-1\"> \n    <input type=\"checkbox\" {{#if completed}}checked{{/if}}>\n  </div>\n  <div class=\"col-md-10 title\">{{title}}</div>\n  <div class=\"col-md-10\" data-id='{{id}}'>{{title}}</div>\n  <div class=\"col-md-1\">\n    <button type=\"button\" class=\"close\" aria-label=\"Close\">\n      <span aria-hidden=\"true\">&times;</span>\n    </button>\n  </div>\n</li>";
 
 /***/ }
 /******/ ]);

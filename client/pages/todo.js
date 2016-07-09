@@ -7,7 +7,7 @@ require('bootstrap');
 import _ from 'underscore';
 import Handlebars from 'handlebars';
 import lscache from 'lscache';
-import rawTemplate from 'templates/todoThingy.html';
+import rawTemplate from 'templates/todoThing.html';
 import modalTemplate from 'templates/todoModal.html';
 // var $ = require('jquery'); ES5
 
