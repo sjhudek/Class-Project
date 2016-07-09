@@ -1,6 +1,10 @@
 <li class="list-group-item row {{#if completed}}disabled{{/if}}"> <!-- disabled row -->
   <div class="col-md-1"> 
-    <input type="checkbox" {{#if completed}}checked{{/if}}>
+    {{#if completed}}
+      <input type="checkbox" checked>
+    {{else}}
+      <input type="checkbox">
+    {{/if}}
   </div>
   <div class="col-md-10 title">{{title}}</div>
   <div class="col-md-10" data-id='{{id}}'>{{title}}</div>
