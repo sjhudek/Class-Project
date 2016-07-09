@@ -150,7 +150,20 @@ section {
 }
 
 h1 {
-  color: red;
+  color: blue;
+}
+
+.vertical-center {
+  min-height: 100%;
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh;
+  /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron {
+  background-color: white;
 }
 
 .square {
@@ -369,6 +382,10 @@ ul.nav > li {
   font-size: 16px;
   margin: 0 0 0 5px;
   color: #EDEFF1 !important;
+}
+
+.copyright {
+  padding-top: 3px;
 }
 
 .stevePic, .pic {
