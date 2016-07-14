@@ -1,21 +1,6 @@
 /* Tablet and bigger */
-/* vertical divider */
 @media ( min-width: 768px ) {
-  div {
-    display: inline-block;
-    position: relative;
-}
-
-div + div {
-    padding-left: 0.3em;
-}
-
-div + div::before {
-    content: '';
-    border-left: 2px solid #000;
-    position: absolute;
-    height: 85%;
-    left: 0;
-    top: 14%;
-}
+  .aboutVerticalDivide {
+    border-left: 2px solid
+  }
 }
