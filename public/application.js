@@ -9956,7 +9956,7 @@
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"todo-container":"todo-container","add-todo-container":"add-todo-container","col-md-10":"col-md-10","col-md-2":"col-md-2","col-md-4":"col-md-4","liNoIndent":"liNoIndent","heroImage":"heroImage","style18":"style18","tagline":"tagline","callToAction":"callToAction","mainPhoneNumber":"mainPhoneNumber","testimonialText":"testimonialText","quote":"quote","fade-quote-carousel":"fade-quote-carousel","carousel":"carousel","carousel-inner":"carousel-inner","item":"item","active":"active","carousel-indicators":"carousel-indicators","profile-circle":"profile-circle","vertical-center":"vertical-center","jumbotron":"jumbotron","square":"square","square-container":"square-container","square1":"square1","square2":"square2","square3":"square3","square4":"square4","square5":"square5","square6":"square6","arc":"arc","navPosition":"navPosition","nav":"nav","social-icon":"social-icon","phone-number":"phone-number","full":"full","gap":"gap","footer":"footer","supportLi":"supportLi","newsletter-box":"newsletter-box","appendedInputButton":"appendedInputButton","btn":"btn","social":"social","copyright":"copyright","stevePic":"stevePic","pic":"pic","center-block":"center-block"};
+	module.exports = {"todo-container":"todo-container","add-todo-container":"add-todo-container","col-md-10":"col-md-10","col-md-2":"col-md-2","col-md-4":"col-md-4","liNoIndent":"liNoIndent","heroImage":"heroImage","style18":"style18","style15":"style15","tagline":"tagline","callToAction":"callToAction","mainPhoneNumber":"mainPhoneNumber","testimonialText":"testimonialText","hruleHome":"hruleHome","quote":"quote","fade-quote-carousel":"fade-quote-carousel","carousel":"carousel","carousel-inner":"carousel-inner","item":"item","active":"active","carousel-indicators":"carousel-indicators","profile-circle":"profile-circle","vertical-center":"vertical-center","jumbotron":"jumbotron","square":"square","square-container":"square-container","square1":"square1","square2":"square2","square3":"square3","square4":"square4","square5":"square5","square6":"square6","arc":"arc","navPosition":"navPosition","nav":"nav","social-icon":"social-icon","phone-number":"phone-number","full":"full","gap":"gap","footer":"footer","pull-left":"pull-left","copyright":"copyright","supportLi":"supportLi","newsletter-box":"newsletter-box","appendedInputButton":"appendedInputButton","btn":"btn","social":"social","stevePic":"stevePic","pic":"pic","center-block":"center-block"};
 
 /***/ },
 /* 3 */,
@@ -9993,7 +9993,7 @@
 	
 	var _lscache2 = _interopRequireDefault(_lscache);
 	
-	var _templatesTodoThingHtml = __webpack_require__(63);
+	var _templatesTodoThingHtml = __webpack_require__(40);
 	
 	var _templatesTodoThingHtml2 = _interopRequireDefault(_templatesTodoThingHtml);
 	
@@ -16857,7 +16857,12 @@
 
 
 /***/ },
-/* 40 */,
+/* 40 */
+/***/ function(module, exports) {
+
+	module.exports = "<li class=\"list-group-item row {{#if completed}}disabled{{/if}}\"> <!-- disabled row -->\n  <div class=\"col-md-1\"> \n    {{#if completed}}\n      <input type=\"checkbox\" checked>\n    {{else}}\n      <input type=\"checkbox\">\n    {{/if}}\n  </div>\n  <div class=\"col-md-10 title\">{{title}}</div>\n  <div class=\"col-md-10\" data-id='{{id}}'>{{title}}</div>\n  <div class=\"col-md-1\">\n    <button type=\"button\" class=\"close\" aria-label=\"Close\">\n      <span aria-hidden=\"true\">&times;</span>\n    </button>\n  </div>\n</li>";
+
+/***/ },
 /* 41 */
 /***/ function(module, exports) {
 
@@ -29026,12 +29031,6 @@
 /***/ function(module, exports) {
 
 	module.exports = "<link rel=\"stylesheet\" type=\"text/css\" href=\"/main.css\">\n<!-- Latest compiled and minified CSS -->\n<link rel=\"stylesheet\" href=\"/css/bootstrap.min.css\">\n<link rel=\"stylesheet\" href=\"/css/bootstrap-theme.min.css\">\n<!-- Font Awesome -->\n<link href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css\" rel=\"stylesheet\" integrity=\"sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1\" crossorigin=\"anonymous\">\n\n\n<div class=\"footer\">\n  <div class=\"container\">\n    <p class=\"pull-left\"> Copyright © 2016 Stephen J. Hudek All rights reserved. </p>\n      <div class=\"col-md-8 right\">\n        <ul class=\"nav navbar-nav navbar-right\" id=\"social-icon\">\n          <li><a href=\"#\"><i class=\"fa fa-facebook\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-skype\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-google-plus\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-linkedin\"></i></a></li>\n          <li><a href=\"#\"><i class=\"fa fa-rss\"></i></a></li>\n        </ul>\n      </div>\n</div>\n</div>";
-
-/***/ },
-/* 63 */
-/***/ function(module, exports) {
-
-	module.exports = "<li class=\"list-group-item row {{#if completed}}disabled{{/if}}\"> <!-- disabled row -->\n  <div class=\"col-md-1\"> \n    <input type=\"checkbox\" {{#if completed}}checked{{/if}}>\n  </div>\n  <div class=\"col-md-10 title\">{{title}}</div>\n  <div class=\"col-md-10\" data-id='{{id}}'>{{title}}</div>\n  <div class=\"col-md-1\">\n    <button type=\"button\" class=\"close\" aria-label=\"Close\">\n      <span aria-hidden=\"true\">&times;</span>\n    </button>\n  </div>\n</li>";
 
 /***/ }
 /******/ ]);

@@ -61,6 +61,24 @@ hr.style18:before {
   border-radius: 20px;
 }
 
+hr.style15 {
+  border-top: 4px double #8c8b8b;
+  text-align: center;
+  margin-top: 50px;
+  width: 30%;
+}
+
+hr.style15:after {
+  content: '\F040';
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  padding: 0 10px;
+  background: #f0f0f0;
+  color: #8c8b8b;
+  font-size: 18px;
+}
+
 .tagline {
   font-family: 'Shadows Into Light Two', cursive;
   font-size: 50px;
@@ -88,8 +106,28 @@ hr.style18:before {
   text-align: center;
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
-  margin-top: 30px;
+  padding-top: 50px;
   margin-bottom: -40px;
+}
+
+.hruleHome {
+  border: 0;
+  border-top: 4px double #8c8c8c;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: -40px;
+  width: 30%;
+}
+
+.hruleHome:after {
+  content: '\2665';
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  padding: 0 10px;
+  background: #fff;
+  color: #8c8c8c;
+  font-size: 18px;
 }
 
 /*-------------------------------*/
@@ -255,6 +293,7 @@ ul.nav > li {
   background: #FFFFFF;
   height: 60px;
   padding-bottom: 30px;
+  padding-top: 20px;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -296,6 +335,10 @@ ul.nav > li {
 
 .footer a {
   color: #78828D;
+}
+
+.pull-left > .copyright {
+  margin-top: 510x;
 }
 
 .supportLi h4 {
@@ -389,6 +432,7 @@ ul.nav > li {
 }
 
 .stevePic, .pic {
+  margin-top: 70px;
   width: 200px;
 }
 
@@ -396,6 +440,26 @@ ul.nav > li {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Tablet and bigger */
+/* vertical divider */
+@media (min-width: 768px) {
+  div {
+    display: inline-block;
+    position: relative;
+  }
+  div + div {
+    padding-left: 0.3em;
+  }
+  div + div::before {
+    content: '';
+    border-left: 2px solid #000;
+    position: absolute;
+    height: 85%;
+    left: 0;
+    top: 14%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map*/

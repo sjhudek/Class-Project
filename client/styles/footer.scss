@@ -11,6 +11,7 @@
   background: #FFFFFF;
   height: 60px;
   padding-bottom: 30px;
+  padding-top: 20px;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -46,6 +47,10 @@
 }
 .footer a {
   color: #78828D;
+}
+
+.pull-left>.copyright {
+  margin-top: 510x;
 }
 .supportLi h4 {
   font-size: 20px;
