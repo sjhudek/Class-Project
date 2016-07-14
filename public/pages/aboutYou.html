@@ -1,18 +1,33 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="/main.css">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
-    <script type="text/javascript" async="async" defer="defer" src="/application.js"></script>
-    <!-- Google Font -->
-    <link href='https://fonts.googleapis.com/css?family=Over+the+Rainbow' rel='stylesheet' type='text/css'>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/main.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+  <script type="text/javascript" async="async" defer="defer" src="/application.js"></script>
+  <!-- Google Font -->
+  <link href='https://fonts.googleapis.com/css?family=Over+the+Rainbow' rel='stylesheet' type='text/css'>
+<!-- vertical divider -->
+<style>
+  div + div {
+      padding-left: 0.3em;
+  }
+
+  div + div::before {
+    content: '';
+    border-left: 2px solid #000;
+    position: absolute;
+    height: 68%;
+    left: 0;
+    top: 27%;
+  }
+</style>
+</head>
 <body>
 
 <header></header>
