@@ -8,201 +8,617 @@
   <link rel="stylesheet" type="text/css" href="/main.css">
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
-  <link rel="stylesheet" type="text/css" href="http://www.sjhudek.com/ElasticGrid/css/elastic_grid.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <script type="text/javascript" async="async" defer="defer" src="/application.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script type="text/javascript" src="http://www.sjhudek.com/ElasticGrid/js/modernizr.custom.js"></script>
-  <script type="text/javascript" src="http://www.sjhudek.com/ElasticGrid/js/elastic_grid.min.js"></script>
-  <script type="text/javascript" src="http://www.sjhudek.com/ElasticGrid/js/classie.js"></script>
-  <script type="text/javascript" src="http://www.sjhudek.com/ElasticGrid/js/elastic_grid.encode.js"></script>
-  
 </head>
 <body>
 <header></header>
-<div id="elastic_grid_demo"></div>
-  <script type="text/javascript" />
-    $(function(){
-      $("#elastic_grid_demo").elastic_grid({
-        'showAllText' : 'All',
-        'filterEffect': 'popup', // moveup, scaleup, fallperspective, fly, flip, helix , popup
-        'hoverDirection': true,
-        'hoverDelay': 0,
-        'hoverInverse': false,
-        'expandingSpeed': 500,
-        'expandingHeight': 500,
-        'items' :
-      [
-        {
-          'title'         : 'Berlitz',
-          'description'   : '2-page concept ad for the well-known Berlitz language schools.',
-          'thumbnail'     : ['/images/small/Berlitz-250x250.png'],
-          'large'         : ['/images/large/Berlitz-500x500.png'],
-          'button_list'   :
-          [
 
-          ],
-          'tags'          : ['Advertising', 'Graphic Design']
-        },
-        {
-          'title'         : 'Savage Storm of Profits',
-          'description'   : 'Simple direct-mail letter design',
-          'thumbnail'     : ['/images/small/savage-storm-250x250.png'],
-          'large'         : ['/images/large/savage-storm-500x500.png'],
-          'button_list'   :
-          [
-             
-          ],
-          'tags'          : ['Advertising', 'Direct Mail']
-        },
-          {
-            'title'         : 'Cross Pens',
-            'description'   : 'Cross is one of the great brands in writing intruments.',
-            'thumbnail'     : ['/images/small/cross-pens-250x250.png'],
-            'large'         : ['/images/large/cross-pens-500x500.png'],
-            'button_list'   :
-            [
-                
-            ],
-            'tags'          : ['Advertising', 'Graphic Design']
-          },
-          {
-            'title'         : 'Dr. Scholls',
-            'description'   : 'Marker comp for Dr Scholls athletes foot spray.',
-            'thumbnail'     : ['/images/small/dr-scholls-250x250.png'],
-            'large'         : ['/images/large/dr-scholls-500x500.png'],
-            'button_list'   :
-            [
-                
-            ],
-            'tags'          : ['Advertising', 'Graphic Design']
-          },
-          {
-            'title'         : 'Forever Young',
-            'description'   : 'Print ad for Forever Young - a nutritional supplement. Also doubles as a direct-mail piece.',
-            'thumbnail'     : ['/images/small/forever-young-250x250.png'],
-            'large'         : ['/images/large/forever-young-500x500.png'],
-            'button_list'   :
-            [
-               
-            ],
-            'tags'          : ['Advertising', 'Graphic Design', 'Direct Mail']
-          },
-          {
-            'title'         : 'Cosmopolitan Bread Cafe',
-            'description'   : 'BreadCafe.com - eCommerce site for the Cosmopolitan Bread Cafe in Denver.',
-            'thumbnail'     : ['/images/small/breadcafe-250x250.png'],
-            'large'         : ['/images/large/breadcafe-500x500.png'],
-            'button_list'   :
-            [
-                
-            ],
-            'tags'          : ['Web Design']
-          },
-          {
-            'title'         : 'Lindsay Ripe Olives Billboard Series',
-            'description'   : 'Billboards for Lindsay Ripe Olives (aka "Black Olives").',
-            'thumbnail'     : ['/images/small/olives-1-250x250.png','/images/small/olives-2-250x250.png', '/images/small/olives-3-250x250.png'],
-            'large'         : ['/images/large/olives-1-500x500.png','/images/large/olives-2-500x500.png', '/images/large/olives-3-500x500.png'],
-            'button_list'   :
-            [
-                
-            ],
-            'tags'          : ['Advertising', 'Graphic Design']
-          },
-          {
-            'title'         : 'Your Radiant Self Mobile Site',
-            'description'   : 'Mobile version of YourRadiantSelf.com - an alternative healing practice.',
-            'thumbnail'     : ['/images/small/your-radiant-self-mobile-250x250.png'],
-            'large'         : ['/images/large/your-radiant-self-mobile-500x500.png'],
-            'button_list'   :
-            [
-                
-            ],
-            'tags'          : ['Mobile', 'Web Design']
-          },
-          {
-            'title'         : 'Salvation Army Billboards',
-            'description'   : 'Billboard series for America\'s most venerable charitable organizations.' ,
-            'thumbnail'     : ['/images/small/salvation-army-1-250x250.png', '/images/small/salvation-army-2-250x250.png', '/images/small/salvation-army-3-250x250.png'],
-            'large'         : ['/images/large/salvation-army-1-500x500.png', '/images/large/salvation-army-2-500x500.png', '/images/large/salvation-army-3-500x500.png'],
-            'button_list'   :
-            [
-         
-            ],
-            'tags'          : ['Advertising', 'Graphic Design']
-          },
-          {
-            'title'         : 'From Family Feud to Family Fortune',
-            'description'   : 'Book cover design for Mary and Brad Wozny - a mother and son success story.',
-            'thumbnail'     : ['/images/small/Brad-cover-1-front-250x250.png','/images/small/Brad-cover-1-250x250.png', '/images/small/Brad-cover-2-front-250x250.png', '/images/small/Brad-cover-2-250x250.png'],
-            'large'         : ['/images/large/Brad-cover-1-front-500x500.png','/images/large/Brad-cover-1-500x500.png', '/images/large/Brad-cover-2-front-500x500.png', '/images/large/Brad-cover-2-500x500.png'],
-            'button_list'   :
-            [
-                
-            ],
-            'tags'          : ['Graphic Design']
-          },
-          {
-            'title'         : 'IMSkrappy.com',
-            'description'   : 'I\'m Skrappy showcasing and inspiring an international community of Makers.',
-            'thumbnail'     : ['/images/small/ImSkrappy-250x250.png'],
-            'large'         : ['/images/large/ImSkrappy-500x500.png'],
-            'button_list'   :
-            [
-                { 'title':'View Website', 'url' : 'http://www.imskrappy.com/', 'new_window' : true },
-            ],
-            'tags'          : ['Web Design']
-          },
-          {
-            'title'         : 'Plastiprint.com',
-            'description'   : 'Complete re-design for Plastiprint - who makes those stick sign that go on windows and cars.',
-            'thumbnail'     : ['/images/small/plastiprint-250x250.png'],
-            'large'         : ['/images/large/plastiprint-500x500.png'],
-            'button_list'   :
-            [
-            
-            ],
-            'tags'          : ['Web Design']
-          },
-          {
-            'title'         : 'Flow Gently Logo',
-            'description'   : 'Logo for Flow Gently, an alternative healing practice.',
-            'thumbnail'     : ['/images/small/flowgently-250x250.png'],
-            'large'         : ['/images/large/flowgently-500x500.png'],
-            'button_list'   :
-            [
+<!-- Wrapper without sidebar -->
+  <div class="otw-row">
+    <section class="otw-twentyfour otw-columns">
+      <!-- Portfolio List Title -->
+      <div class="otw_portfolio_manager-portfolio-list-title-wrapper">
+        <h2 class="otw_portfolio_manager-portfolio-list-title" data-item="title">Portfolio 1/3 with space - Mosaic Layout</h2>
+      </div>
+      <!-- End Portfolio List Title -->
 
-            ],
-            'tags'          : ['Graphic Design']
-          },
-          {
-            'title'         : 'Mapleton Hill Inn',
-            'description'   : 'Site re-design for the Mapleton Hill Inn in Boulder, CO. Unfortunately, the owners retired and it\'s no longer in business,',
-            'thumbnail'     : ['/images/small/inn-250x250.png', 'images/small/18.jpg', 'images/small/19.jpg', 'images/small/20.jpg'],
-            'large'         : ['/images/large/inn-500x500.png', 'images/large/18.jpg', 'images/large/19.jpg', 'images/large/20.jpg'],
-            'button_list'   :
-            [
-                
-            ],
-            'tags'          : ['Web Design']
-          },
-          {
-            'title'         : 'Fossil Trace Golf Course',
-            'description'   : 'Site re-desing for Fossil Trace Golf Club in Golden, CO. It gets its name from the fossil dinosaur footprints found in the area.,',
-            'thumbnail'     : ['/images/small/fossil-trace-250x250.png'],
-            'large'         : ['/images/large/fossil-trace-500x500.png'],
-            'button_list'   :
-            [
-                
-            ],
-            'tags'          : ['Web Design']
-          }
+      <!-- Portfolio Newspaper Filter -->
+      <div class="otw_portfolio_manager-portfolio-newspaper-filter">
+        <ul class="option-set otw_portfolio_manager-portfolio-filter clearfix">
+          <li><a href="#" data-filter="*" class="selected">All</a></li>
+          <li><a href="#" data-filter=".cat1">Cat 1</a></li>
+          <li><a href="#" data-filter=".cat2">Cat 2</a></li>
+          <li><a href="#" data-filter=".cat3">Cat 3</a></li>
+          <li><a href="#" data-filter=".cat4">Cat 4</a></li>
+          <li><a href="#" data-filter=".cat5">Cat 5</a></li>
+        </ul>
+      </div>
+      <!-- End Portfolio Newspaper Filter -->
 
-        ]
-      });
-    });
-  </script>
-  
+      <!-- Portfolio Newspaper Sort -->
+      <div class="otw_portfolio_manager-portfolio-newspaper-sort">
+        <ul class="option-set otw_portfolio_manager-portfolio-sort clearfix" data-option-key="sortBy">
+          <li><a href="#" data-option-value="original-order" class="selected">Original</a></li>
+          <li><a href="#" data-option-value="random">Mixed</a></li>
+          <li><a href="#" data-option-value="date">Date</a></li>
+          <li><a href="#" data-option-value="alphabetical">Alphabetical</a></li>
+        </ul>
+      </div>
+      <!-- End Portfolio Newspaper Sort -->
+
+      <!-- Portfolio 1/3 with space - Mosaic Layout -->
+      <div class="otw-row otw_portfolio_manager-portfolio-items-holder otw_portfolio_manager-portfolio-newspaper otw_portfolio_manager-mosaic-layout" data-columns="3">
+        <div class="otw_portfolio_manager-1-3 otw_portfolio_manager-iso-item otw_portfolio_manager-portfolio-newspaper-item cat3" data-title="Portfolio Title 1" data-date="2013-01-11">
+          <div class="otw_portfolio_manager-portfolio-full only-media otw_portfolio_manager-hover-effect-2">
+            <!-- Portfolio Media -->
+            <figure class="otw_portfolio_manager-portfolio-media otw_portfolio_manager-format-image">
+              <a href="#"><img src="http://placehold.it/1000x1000/046466/fff" alt="" data-item="media"></a>
+
+              <!-- Portfolio Overlay -->
+              <div class="otw_portfolio_manager-portfolio-overlay">
+                <div class="otw_portfolio_manager-valign-middle">
+                  <!-- Portfolio Icons -->
+                  <div class="otw_portfolio_manager-portfolio-icon-wrapper">
+                    <a href="#" class="icon-link"></a>
+                    <a href="http://placehold.it/1024x640.jpg" class="otw_portfolio_manager-fancybox-img icon-search" title="Project Title #1"></a>
+                  </div>
+                  <!-- End Portfolio Icons -->
+
+                  <!-- Portfolio Title & Info -->
+                  <div class="otw_portfolio_manager-portfolio-text">
+                    <h3 class="otw_portfolio_manager-portfolio-title">Portfolio Title #1</h3>
+                    <div class="otw_portfolio_manager-portfolio-meta-item">
+                      <a href="#" rel="tag">Category 1</a>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Title & Info -->
+                </div>
+              </div>
+              <!-- End Portfolio Overlay -->
+            </figure>
+            <!-- End Portfolio Media -->
+          </div>
+        </div>
+
+        <div class="otw_portfolio_manager-1-3 otw_portfolio_manager-iso-item otw_portfolio_manager-portfolio-newspaper-item cat4" data-title="Portfolio Title 2" data-date="2013-03-17">
+          <div class="otw_portfolio_manager-portfolio-full only-media otw_portfolio_manager-hover-effect-2">
+            <!-- Portfolio Media -->
+            <figure class="otw_portfolio_manager-portfolio-media otw_portfolio_manager-format-image">
+              <a href="#"><img src="http://placehold.it/1000x1000/6AE5FD/fff" alt="" data-item="media"></a>
+
+              <!-- Portfolio Overlay -->
+              <div class="otw_portfolio_manager-portfolio-overlay">
+                <div class="otw_portfolio_manager-valign-middle">
+                  <!-- Portfolio Icons -->
+                  <div class="otw_portfolio_manager-portfolio-icon-wrapper">
+                    <a href="#" class="icon-link"></a>
+                    <a href="http://placehold.it/1024x640.jpg" class="otw_portfolio_manager-fancybox-img icon-search" title="Project Title #2"></a>
+                  </div>
+                  <!-- End Portfolio Icons -->
+
+                  <!-- Portfolio Title & Info -->
+                  <div class="otw_portfolio_manager-portfolio-text">
+                    <h3 class="otw_portfolio_manager-portfolio-title">Portfolio Title #2</h3>
+                    <div class="otw_portfolio_manager-portfolio-meta-item">
+                      <a href="#" rel="tag">Category 1</a>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Title & Info -->
+                </div>
+              </div>
+              <!-- End Portfolio Overlay -->
+            </figure>
+            <!-- End Portfolio Media -->
+          </div>
+        </div>
+
+        <div class="otw_portfolio_manager-2-3 otw_portfolio_manager-iso-item height1 otw_portfolio_manager-portfolio-newspaper-item cat1" data-title="Portfolio Title 3" data-date="2013-08-16">
+          <div class="otw_portfolio_manager-portfolio-full only-media otw_portfolio_manager-hover-effect-2">
+            <!-- Portfolio Media -->
+            <figure class="otw_portfolio_manager-portfolio-media otw_portfolio_manager-format-image">
+              <a href="#"><img src="http://placehold.it/1000x500/7E4B1A/fff" alt="" data-item="media"></a>
+
+              <!-- Portfolio Overlay -->
+              <div class="otw_portfolio_manager-portfolio-overlay">
+                <div class="otw_portfolio_manager-valign-middle">
+                  <!-- Portfolio Icons -->
+                  <div class="otw_portfolio_manager-portfolio-icon-wrapper">
+                    <a href="#" class="icon-link"></a>
+                    <a href="http://placehold.it/1024x640.jpg" class="otw_portfolio_manager-fancybox-img icon-search" title="Project Title #3"></a>
+                  </div>
+                  <!-- End Portfolio Icons -->
+
+                  <!-- Portfolio Title & Info -->
+                  <div class="otw_portfolio_manager-portfolio-text">
+                    <h3 class="otw_portfolio_manager-portfolio-title">Portfolio Title #3</h3>
+                    <div class="otw_portfolio_manager-portfolio-meta-item">
+                      <a href="#" rel="tag">Category 1</a>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Title & Info -->
+                </div>
+              </div>
+              <!-- End Portfolio Overlay -->
+            </figure>
+            <!-- End Portfolio Media -->
+          </div>
+        </div>
+
+        <div class="otw_portfolio_manager-1-3 otw_portfolio_manager-iso-item otw_portfolio_manager-portfolio-newspaper-item cat3" data-title="Portfolio Title 4" data-date="2013-10-13">
+          <div class="otw_portfolio_manager-portfolio-full only-media otw_portfolio_manager-hover-effect-2">
+            <!-- Portfolio Media -->
+            <figure class="otw_portfolio_manager-portfolio-media otw_portfolio_manager-format-image">
+              <a href="#"><img src="http://placehold.it/1000x1000/C3D6A0/fff" alt="" data-item="media"></a>
+
+              <!-- Portfolio Overlay -->
+              <div class="otw_portfolio_manager-portfolio-overlay">
+                <div class="otw_portfolio_manager-valign-middle">
+                  <!-- Portfolio Icons -->
+                  <div class="otw_portfolio_manager-portfolio-icon-wrapper">
+                    <a href="#" class="icon-link"></a>
+                    <a href="http://placehold.it/1024x640.jpg" class="otw_portfolio_manager-fancybox-img icon-search" title="Project Title #4"></a>
+                  </div>
+                  <!-- End Portfolio Icons -->
+
+                  <!-- Portfolio Title & Info -->
+                  <div class="otw_portfolio_manager-portfolio-text">
+                    <h3 class="otw_portfolio_manager-portfolio-title">Portfolio Title #4</h3>
+                    <div class="otw_portfolio_manager-portfolio-meta-item">
+                      <a href="#" rel="tag">Category 1</a>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Title & Info -->
+                </div>
+              </div>
+              <!-- End Portfolio Overlay -->
+            </figure>
+            <!-- End Portfolio Media -->
+          </div>
+        </div>
+
+        <div class="otw_portfolio_manager-1-3 otw_portfolio_manager-iso-item height2 otw_portfolio_manager-portfolio-newspaper-item cat2 cat1" data-title="Portfolio Title 5" data-date="2013-09-16">
+          <div class="otw_portfolio_manager-portfolio-full only-media otw_portfolio_manager-hover-effect-2">
+            <!-- Portfolio Media -->
+            <figure class="otw_portfolio_manager-portfolio-media otw_portfolio_manager-format-image">
+              <a href="#"><img src="http://placehold.it/500x1000/E5DE3F/fff" alt="" data-item="media"></a>
+
+              <!-- Portfolio Overlay -->
+              <div class="otw_portfolio_manager-portfolio-overlay">
+                <div class="otw_portfolio_manager-valign-middle">
+                  <!-- Portfolio Icons -->
+                  <div class="otw_portfolio_manager-portfolio-icon-wrapper">
+                    <a href="#" class="icon-link"></a>
+                    <a href="http://placehold.it/1024x640.jpg" class="otw_portfolio_manager-fancybox-img icon-search" title="Project Title #5"></a>
+                  </div>
+                  <!-- End Portfolio Icons -->
+
+                  <!-- Portfolio Title & Info -->
+                  <div class="otw_portfolio_manager-portfolio-text">
+                    <h3 class="otw_portfolio_manager-portfolio-title">Portfolio Title #5</h3>
+                    <div class="otw_portfolio_manager-portfolio-meta-item">
+                      <a href="#" rel="tag">Category 1</a>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Title & Info -->
+                </div>
+              </div>
+              <!-- End Portfolio Overlay -->
+            </figure>
+            <!-- End Portfolio Media -->
+          </div>
+        </div>
+
+        <div class="otw_portfolio_manager-1-3 otw_portfolio_manager-iso-item otw_portfolio_manager-portfolio-newspaper-item cat5 cat3" data-title="Portfolio Title 6" data-date="2013-10-10">
+          <div class="otw_portfolio_manager-portfolio-full only-media otw_portfolio_manager-hover-effect-2">
+            <!-- Portfolio Media -->
+            <figure class="otw_portfolio_manager-portfolio-media otw_portfolio_manager-format-image">
+              <a href="#"><img src="http://placehold.it/1000x1000/35E9CB/fff" alt="" data-item="media"></a>
+
+              <!-- Portfolio Overlay -->
+              <div class="otw_portfolio_manager-portfolio-overlay">
+                <div class="otw_portfolio_manager-valign-middle">
+                  <!-- Portfolio Icons -->
+                  <div class="otw_portfolio_manager-portfolio-icon-wrapper">
+                    <a href="#" class="icon-link"></a>
+                    <a href="http://placehold.it/1024x640.jpg" class="otw_portfolio_manager-fancybox-img icon-search" title="Project Title #6"></a>
+                  </div>
+                  <!-- End Portfolio Icons -->
+
+                  <!-- Portfolio Title & Info -->
+                  <div class="otw_portfolio_manager-portfolio-text">
+                    <h3 class="otw_portfolio_manager-portfolio-title">Portfolio Title #6</h3>
+                    <div class="otw_portfolio_manager-portfolio-meta-item">
+                      <a href="#" rel="tag">Category 1</a>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Title & Info -->
+                </div>
+              </div>
+              <!-- End Portfolio Overlay -->
+            </figure>
+            <!-- End Portfolio Media -->
+          </div>
+        </div>
+
+        <div class="otw_portfolio_manager-1-3 otw_portfolio_manager-iso-item otw_portfolio_manager-portfolio-newspaper-item cat4 cat1" data-title="Portfolio Title 7" data-date="2013-06-26">
+          <div class="otw_portfolio_manager-portfolio-full only-media otw_portfolio_manager-hover-effect-2">
+            <!-- Portfolio Media -->
+            <figure class="otw_portfolio_manager-portfolio-media otw_portfolio_manager-format-image">
+              <a href="#"><img src="http://placehold.it/1000x1000/BF0EA3/fff" alt="" data-item="media"></a>
+
+              <!-- Portfolio Overlay -->
+              <div class="otw_portfolio_manager-portfolio-overlay">
+                <div class="otw_portfolio_manager-valign-middle">
+                  <!-- Portfolio Icons -->
+                  <div class="otw_portfolio_manager-portfolio-icon-wrapper">
+                    <a href="#" class="icon-link"></a>
+                    <a href="http://placehold.it/1024x640.jpg" class="otw_portfolio_manager-fancybox-img icon-search" title="Project Title #7"></a>
+                  </div>
+                  <!-- End Portfolio Icons -->
+
+                  <!-- Portfolio Title & Info -->
+                  <div class="otw_portfolio_manager-portfolio-text">
+                    <h3 class="otw_portfolio_manager-portfolio-title">Portfolio Title #7</h3>
+                    <div class="otw_portfolio_manager-portfolio-meta-item">
+                      <a href="#" rel="tag">Category 1</a>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Title & Info -->
+                </div>
+              </div>
+              <!-- End Portfolio Overlay -->
+            </figure>
+            <!-- End Portfolio Media -->
+          </div>
+        </div>
+
+        <div class="otw_portfolio_manager-2-3 otw_portfolio_manager-iso-item otw_portfolio_manager-portfolio-newspaper-item cat2 cat5" data-title="Portfolio Title 8" data-date="2013-09-19">
+          <div class="otw_portfolio_manager-portfolio-full only-media otw_portfolio_manager-hover-effect-2">
+            <!-- Portfolio Media -->
+            <figure class="otw_portfolio_manager-portfolio-media otw_portfolio_manager-format-image">
+              <a href="#"><img src="http://placehold.it/1000x1000/6EC667/fff" alt="" data-item="media"></a>
+
+              <!-- Portfolio Overlay -->
+              <div class="otw_portfolio_manager-portfolio-overlay">
+                <div class="otw_portfolio_manager-valign-middle">
+                  <!-- Portfolio Icons -->
+                  <div class="otw_portfolio_manager-portfolio-icon-wrapper">
+                    <a href="#" class="icon-link"></a>
+                    <a href="http://placehold.it/1024x640.jpg" class="otw_portfolio_manager-fancybox-img icon-search" title="Project Title #8"></a>
+                  </div>
+                  <!-- End Portfolio Icons -->
+
+                  <!-- Portfolio Title & Info -->
+                  <div class="otw_portfolio_manager-portfolio-text">
+                    <h3 class="otw_portfolio_manager-portfolio-title">Portfolio Title #8</h3>
+                    <div class="otw_portfolio_manager-portfolio-meta-item">
+                      <a href="#" rel="tag">Category 1</a>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Title & Info -->
+                </div>
+              </div>
+              <!-- End Portfolio Overlay -->
+            </figure>
+            <!-- End Portfolio Media -->
+          </div>
+        </div>
+
+        <div class="otw_portfolio_manager-1-3 otw_portfolio_manager-iso-item otw_portfolio_manager-portfolio-newspaper-item cat1 cat3" data-title="Portfolio Title 9" data-date="2013-08-23">
+          <div class="otw_portfolio_manager-portfolio-full only-media otw_portfolio_manager-hover-effect-2">
+            <!-- Portfolio Media -->
+            <figure class="otw_portfolio_manager-portfolio-media otw_portfolio_manager-format-image">
+              <a href="#"><img src="http://placehold.it/1000x1000/98C7EE/fff" alt="" data-item="media"></a>
+
+              <!-- Portfolio Overlay -->
+              <div class="otw_portfolio_manager-portfolio-overlay">
+                <div class="otw_portfolio_manager-valign-middle">
+                  <!-- Portfolio Icons -->
+                  <div class="otw_portfolio_manager-portfolio-icon-wrapper">
+                    <a href="#" class="icon-link"></a>
+                    <a href="http://placehold.it/1024x640.jpg" class="otw_portfolio_manager-fancybox-img icon-search" title="Project Title #9"></a>
+                  </div>
+                  <!-- End Portfolio Icons -->
+
+                  <!-- Portfolio Title & Info -->
+                  <div class="otw_portfolio_manager-portfolio-text">
+                    <h3 class="otw_portfolio_manager-portfolio-title">Portfolio Title #9</h3>
+                    <div class="otw_portfolio_manager-portfolio-meta-item">
+                      <a href="#" rel="tag">Category 1</a>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Title & Info -->
+                </div>
+              </div>
+              <!-- End Portfolio Overlay -->
+            </figure>
+            <!-- End Portfolio Media -->
+          </div>
+        </div>
+      </div>
+      <!-- End Portfolio 1/3 with space - Mosaic Layout -->
+    </section>
+  </div>
+  <!-- End Wrapper without sidebar -->
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- Wrapper without sidebar -->
+  <div class="otw-row">
+    <section class="otw-twentyfour otw-columns">
+      <!-- Portfolio List Title -->
+      <div class="otw_portfolio_manager-portfolio-list-title-wrapper">
+        <h2 class="otw_portfolio_manager-portfolio-list-title" data-item="title">Portfolio 1/4 with space - Mosaic Layout</h2>
+      </div>
+      <!-- End Portfolio List Title -->
+
+      <!-- Portfolio Newspaper Filter -->
+      <div class="otw_portfolio_manager-portfolio-newspaper-filter">
+        <ul class="option-set otw_portfolio_manager-portfolio-filter clearfix">
+          <li><a href="#" data-filter="*" class="selected">All</a></li>
+          <li><a href="#" data-filter=".cat1">Cat 1</a></li>
+          <li><a href="#" data-filter=".cat2">Cat 2</a></li>
+          <li><a href="#" data-filter=".cat3">Cat 3</a></li>
+          <li><a href="#" data-filter=".cat4">Cat 4</a></li>
+          <li><a href="#" data-filter=".cat5">Cat 5</a></li>
+        </ul>
+      </div>
+      <!-- End Portfolio Newspaper Filter -->
+
+      <!-- Portfolio Newspaper Sort -->
+      <div class="otw_portfolio_manager-portfolio-newspaper-sort">
+        <ul class="option-set otw_portfolio_manager-portfolio-sort clearfix" data-option-key="sortBy">
+          <li><a href="#" data-option-value="original-order" class="selected">Original</a></li>
+          <li><a href="#" data-option-value="random">Mixed</a></li>
+          <li><a href="#" data-option-value="date">Date</a></li>
+          <li><a href="#" data-option-value="alphabetical">Alphabetical</a></li>
+        </ul>
+      </div>
+      <!-- End Portfolio Newspaper Sort -->
+
+      <!-- Portfolio 1/4 with space - Mosaic Layout -->
+      <div class="otw-row otw_portfolio_manager-portfolio-items-holder otw_portfolio_manager-portfolio-newspaper otw_portfolio_manager-mosaic-layout" data-columns="4">
+        <div class="otw_portfolio_manager-1-4 otw_portfolio_manager-iso-item otw_portfolio_manager-portfolio-newspaper-item cat3" data-title="Portfolio Title 1" data-date="2013-01-11">
+          <div class="otw_portfolio_manager-portfolio-full only-media otw_portfolio_manager-hover-effect-2">
+            <!-- Portfolio Media -->
+            <figure class="otw_portfolio_manager-portfolio-media otw_portfolio_manager-format-image">
+              <a href="#"><img src="http://placehold.it/1000x1000/046466/fff" alt="" data-item="media"></a>
+
+              <!-- Portfolio Overlay -->
+              <div class="otw_portfolio_manager-portfolio-overlay">
+                <div class="otw_portfolio_manager-valign-middle">
+                  <!-- Portfolio Icons -->
+                  <div class="otw_portfolio_manager-portfolio-icon-wrapper">
+                    <a href="#" class="icon-link"></a>
+                    <a href="http://placehold.it/1024x640.jpg" class="otw_portfolio_manager-fancybox-img icon-search" title="Project Title #1"></a>
+                  </div>
+                  <!-- End Portfolio Icons -->
+
+                  <!-- Portfolio Title & Info -->
+                  <div class="otw_portfolio_manager-portfolio-text">
+                    <h3 class="otw_portfolio_manager-portfolio-title">Portfolio Title #1</h3>
+                    <div class="otw_portfolio_manager-portfolio-meta-item">
+                      <a href="#" rel="tag">Category 1</a>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Title & Info -->
+                </div>
+              </div>
+              <!-- End Portfolio Overlay -->
+            </figure>
+            <!-- End Portfolio Media -->
+          </div>
+        </div>
+
+        <div class="otw_portfolio_manager-1-2 otw_portfolio_manager-iso-item otw_portfolio_manager-portfolio-newspaper-item cat4" data-title="Portfolio Title 2" data-date="2013-03-17">
+          <div class="otw_portfolio_manager-portfolio-full only-media otw_portfolio_manager-hover-effect-2">
+            <!-- Portfolio Media -->
+            <figure class="otw_portfolio_manager-portfolio-media otw_portfolio_manager-format-image">
+              <a href="#"><img src="http://placehold.it/1000x1000/6AE5FD/fff" alt="" data-item="media"></a>
+
+              <!-- Portfolio Overlay -->
+              <div class="otw_portfolio_manager-portfolio-overlay">
+                <div class="otw_portfolio_manager-valign-middle">
+                  <!-- Portfolio Icons -->
+                  <div class="otw_portfolio_manager-portfolio-icon-wrapper">
+                    <a href="#" class="icon-link"></a>
+                    <a href="http://placehold.it/1024x640.jpg" class="otw_portfolio_manager-fancybox-img icon-search" title="Project Title #2"></a>
+                  </div>
+                  <!-- End Portfolio Icons -->
+
+                  <!-- Portfolio Title & Info -->
+                  <div class="otw_portfolio_manager-portfolio-text">
+                    <h3 class="otw_portfolio_manager-portfolio-title">Portfolio Title #2</h3>
+                    <div class="otw_portfolio_manager-portfolio-meta-item">
+                      <a href="#" rel="tag">Category 1</a>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Title & Info -->
+                </div>
+              </div>
+              <!-- End Portfolio Overlay -->
+            </figure>
+            <!-- End Portfolio Media -->
+          </div>
+        </div>
+
+        <div class="otw_portfolio_manager-1-4 otw_portfolio_manager-iso-item otw_portfolio_manager-portfolio-newspaper-item cat1" data-title="Portfolio Title 3" data-date="2013-08-16">
+          <div class="otw_portfolio_manager-portfolio-full only-media otw_portfolio_manager-hover-effect-2">
+            <!-- Portfolio Media -->
+            <figure class="otw_portfolio_manager-portfolio-media otw_portfolio_manager-format-image">
+              <a href="#"><img src="http://placehold.it/1000x1000/7E4B1A/fff" alt="" data-item="media"></a>
+
+              <!-- Portfolio Overlay -->
+              <div class="otw_portfolio_manager-portfolio-overlay">
+                <div class="otw_portfolio_manager-valign-middle">
+                  <!-- Portfolio Icons -->
+                  <div class="otw_portfolio_manager-portfolio-icon-wrapper">
+                    <a href="#" class="icon-link"></a>
+                    <a href="http://placehold.it/1024x640.jpg" class="otw_portfolio_manager-fancybox-img icon-search" title="Project Title #3"></a>
+                  </div>
+                  <!-- End Portfolio Icons -->
+
+                  <!-- Portfolio Title & Info -->
+                  <div class="otw_portfolio_manager-portfolio-text">
+                    <h3 class="otw_portfolio_manager-portfolio-title">Portfolio Title #3</h3>
+                    <div class="otw_portfolio_manager-portfolio-meta-item">
+                      <a href="#" rel="tag">Category 1</a>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Title & Info -->
+                </div>
+              </div>
+              <!-- End Portfolio Overlay -->
+            </figure>
+            <!-- End Portfolio Media -->
+          </div>
+        </div>
+
+        <div class="otw_portfolio_manager-1-4 otw_portfolio_manager-iso-item height2 otw_portfolio_manager-portfolio-newspaper-item cat3" data-title="Portfolio Title 4" data-date="2013-10-13">
+          <div class="otw_portfolio_manager-portfolio-full only-media otw_portfolio_manager-hover-effect-2">
+            <!-- Portfolio Media -->
+            <figure class="otw_portfolio_manager-portfolio-media otw_portfolio_manager-format-image">
+              <a href="#"><img src="http://placehold.it/800x1600/C3D6A0/fff" alt="" data-item="media"></a>
+
+              <!-- Portfolio Overlay -->
+              <div class="otw_portfolio_manager-portfolio-overlay">
+                <div class="otw_portfolio_manager-valign-middle">
+                  <!-- Portfolio Icons -->
+                  <div class="otw_portfolio_manager-portfolio-icon-wrapper">
+                    <a href="#" class="icon-link"></a>
+                    <a href="http://placehold.it/1024x640.jpg" class="otw_portfolio_manager-fancybox-img icon-search" title="Project Title #4"></a>
+                  </div>
+                  <!-- End Portfolio Icons -->
+
+                  <!-- Portfolio Title & Info -->
+                  <div class="otw_portfolio_manager-portfolio-text">
+                    <h3 class="otw_portfolio_manager-portfolio-title">Portfolio Title #4</h3>
+                    <div class="otw_portfolio_manager-portfolio-meta-item">
+                      <a href="#" rel="tag">Category 1</a>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Title & Info -->
+                </div>
+              </div>
+              <!-- End Portfolio Overlay -->
+            </figure>
+            <!-- End Portfolio Media -->
+          </div>
+        </div>
+
+        <div class="otw_portfolio_manager-1-4 otw_portfolio_manager-iso-item otw_portfolio_manager-portfolio-newspaper-item cat2 cat1" data-title="Portfolio Title 5" data-date="2013-09-16">
+          <div class="otw_portfolio_manager-portfolio-full only-media otw_portfolio_manager-hover-effect-2">
+            <!-- Portfolio Media -->
+            <figure class="otw_portfolio_manager-portfolio-media otw_portfolio_manager-format-image">
+              <a href="#"><img src="http://placehold.it/1000x1000/E5DE3F/fff" alt="" data-item="media"></a>
+
+              <!-- Portfolio Overlay -->
+              <div class="otw_portfolio_manager-portfolio-overlay">
+                <div class="otw_portfolio_manager-valign-middle">
+                  <!-- Portfolio Icons -->
+                  <div class="otw_portfolio_manager-portfolio-icon-wrapper">
+                    <a href="#" class="icon-link"></a>
+                    <a href="http://placehold.it/1024x640.jpg" class="otw_portfolio_manager-fancybox-img icon-search" title="Project Title #5"></a>
+                  </div>
+                  <!-- End Portfolio Icons -->
+
+                  <!-- Portfolio Title & Info -->
+                  <div class="otw_portfolio_manager-portfolio-text">
+                    <h3 class="otw_portfolio_manager-portfolio-title">Portfolio Title #5</h3>
+                    <div class="otw_portfolio_manager-portfolio-meta-item">
+                      <a href="#" rel="tag">Category 1</a>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Title & Info -->
+                </div>
+              </div>
+              <!-- End Portfolio Overlay -->
+            </figure>
+            <!-- End Portfolio Media -->
+          </div>
+        </div>
+
+        <div class="otw_portfolio_manager-1-4 otw_portfolio_manager-iso-item otw_portfolio_manager-portfolio-newspaper-item cat5 cat3" data-title="Portfolio Title 6" data-date="2013-10-10">
+          <div class="otw_portfolio_manager-portfolio-full only-media otw_portfolio_manager-hover-effect-2">
+            <!-- Portfolio Media -->
+            <figure class="otw_portfolio_manager-portfolio-media otw_portfolio_manager-format-image">
+              <a href="#"><img src="http://placehold.it/1000x1000/35E9CB/fff" alt="" data-item="media"></a>
+
+              <!-- Portfolio Overlay -->
+              <div class="otw_portfolio_manager-portfolio-overlay">
+                <div class="otw_portfolio_manager-valign-middle">
+                  <!-- Portfolio Icons -->
+                  <div class="otw_portfolio_manager-portfolio-icon-wrapper">
+                    <a href="#" class="icon-link"></a>
+                    <a href="http://placehold.it/1024x640.jpg" class="otw_portfolio_manager-fancybox-img icon-search" title="Project Title #6"></a>
+                  </div>
+                  <!-- End Portfolio Icons -->
+
+                  <!-- Portfolio Title & Info -->
+                  <div class="otw_portfolio_manager-portfolio-text">
+                    <h3 class="otw_portfolio_manager-portfolio-title">Portfolio Title #6</h3>
+                    <div class="otw_portfolio_manager-portfolio-meta-item">
+                      <a href="#" rel="tag">Category 1</a>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Title & Info -->
+                </div>
+              </div>
+              <!-- End Portfolio Overlay -->
+            </figure>
+            <!-- End Portfolio Media -->
+          </div>
+        </div>
+
+        <div class="otw_portfolio_manager-1-2 otw_portfolio_manager-iso-item height1 otw_portfolio_manager-portfolio-newspaper-item cat2 cat5" data-title="Portfolio Title 8" data-date="2013-09-19">
+          <div class="otw_portfolio_manager-portfolio-full only-media otw_portfolio_manager-hover-effect-2">
+            <!-- Portfolio Media -->
+            <figure class="otw_portfolio_manager-portfolio-media otw_portfolio_manager-format-image">
+              <a href="#"><img src="http://placehold.it/1000x500/6EC667/fff" alt="" data-item="media"></a>
+
+              <!-- Portfolio Overlay -->
+              <div class="otw_portfolio_manager-portfolio-overlay">
+                <div class="otw_portfolio_manager-valign-middle">
+                  <!-- Portfolio Icons -->
+                  <div class="otw_portfolio_manager-portfolio-icon-wrapper">
+                    <a href="#" class="icon-link"></a>
+                    <a href="http://placehold.it/1024x640.jpg" class="otw_portfolio_manager-fancybox-img icon-search" title="Project Title #7"></a>
+                  </div>
+                  <!-- End Portfolio Icons -->
+
+                  <!-- Portfolio Title & Info -->
+                  <div class="otw_portfolio_manager-portfolio-text">
+                    <h3 class="otw_portfolio_manager-portfolio-title">Portfolio Title #8</h3>
+                    <div class="otw_portfolio_manager-portfolio-meta-item">
+                      <a href="#" rel="tag">Category 1</a>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Title & Info -->
+                </div>
+              </div>
+              <!-- End Portfolio Overlay -->
+            </figure>
+            <!-- End Portfolio Media -->
+          </div>
+        </div>
+      </div>
+      <!-- End Portfolio 1/4 with space - Mosaic Layout -->
+    </section>
+  </div>
+  <!-- End Wrapper without sidebar -->
+
+
 <footer></footer>
+
+<!-- scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.1/flexslider.min.css"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.1/isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-infinitescroll/2.1.0/jquery.infinitescroll.min.js"></script>
 </body>
 </html>
