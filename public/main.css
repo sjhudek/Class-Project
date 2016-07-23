@@ -338,7 +338,7 @@ ul.nav > li {
 }
 
 .pull-left > .copyright {
-  margin-top: 510x;
+  margin-top: 10px;
 }
 
 .supportLi h4 {
@@ -4336,6 +4336,11 @@ p a, p a:visited {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+}
+
+.bottom {
+  position: relative;
+  margin-bottom: 100px;
 }
 
 /*# sourceMappingURL=main.css.map*/
