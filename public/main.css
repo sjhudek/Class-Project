@@ -420,10 +420,15 @@ ul.nav > li {
 
 .copyright {
   padding-top: 3px;
+  text-align: center;
 }
 
 .stevePic, .pic {
   margin-top: 70px;
+  width: 200px;
+}
+
+.contactPic {
   width: 200px;
 }
 
@@ -4380,6 +4385,10 @@ p a, p a:visited {
   -webkit-border-radius: 6px 0 6px 6px;
   -moz-border-radius: 6px 0 6px 6px;
   border-radius: 6px 0 6px 6px;
+}
+
+.contact {
+  margin-left: 205px;
 }
 
 /*# sourceMappingURL=main.css.map*/
