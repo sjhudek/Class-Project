@@ -1,3 +1,1 @@
-# MyFirstRepo
-
-This is Markdown. I've never used it before.
+This is my portfolio website showcasing some of my design development work. I've been a web and graphic designer for 13+ years. I recently completed a JavaScript Front-end Development bootcamp with DaVinci Coders in Westminster, CO and was pleasantly surprised that I like coding. I say "surprised" because previous attempts at learning coding were not the greatest experiences. I'm looking forward to learning more about JavaScript and web development.
