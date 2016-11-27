@@ -160,3 +160,7 @@ section {
     margin: 0 auto;
     border-radius: 100px;
 }
+
+.borderless .list-group-item {
+    border: none;
+}
